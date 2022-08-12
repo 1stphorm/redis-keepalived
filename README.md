@@ -7,7 +7,7 @@ In master, install redis, keepalived, clone and copy the files:
 
 ```
 sudo cp ./config/redis.conf /etc/redis.conf
-sudo cp /.config/keepalived.master /etc/keepalived/keepalived.conf
+sudo cp ./config/keepalived.master /etc/keepalived/keepalived.conf
 
 # Optional
 sudo chown -R redis:redis /etc/redis.conf
